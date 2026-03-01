@@ -1,0 +1,192 @@
+---
+// Sección de experiencia profesional
+import experiencesEs from '../data/experiences.json';
+import experiencesEn from '../data/experiences-en.json';
+import i18nEs from '../data/i18n/es.json';
+import i18nEn from '../data/i18n/en.json';
+
+// Preparar datos para el cliente
+const allData = {
+  es: { experiences: experiencesEs.experiences, i18n: i18nEs.experience },
+  en: { experiences: experiencesEn.experiences, i18n: i18nEn.experience },
+};
+
+// Por defecto mostrar español
+const { experiences } = experiencesEs;
+const i18n = i18nEs.experience;
+---
+
+<section id="experiencia" class="py-20 relative">
+  <div class="container mx-auto px-6">
+    <!-- Título de la sección -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        <span class="bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent" data-i18n="experience-title">
+          {i18n.title}
+        </span>
+      </h2>
+      <p class="text-xl text-gray-300 max-w-3xl mx-auto" data-i18n="experience-subtitle">
+        {i18n.subtitle}
+      </p>
+    </div>
+    
+    <!-- Timeline de experiencia -->
+    <div class="max-w-4xl mx-auto hidden md:block">
+      <!-- Línea central -->
+      <div class="relative">
+        <div class="absolute left-1/2 transform -translate-x-0.5 w-0.5 h-full bg-gradient-to-b from-green-400 to-green-600"></div>
+        
+        {experiences.map((exp, index) => {
+          const isLeft = index % 2 === 0;
+          return (
+            <div class="relative flex items-center mb-12" data-exp-index={index}>
+              {isLeft ? (
+                <>
+                  <div class="w-1/2 pr-8 text-right">
+                    <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-6 hover:border-green-400/40 transition-all duration-300">
+                      <div class="flex justify-end items-center mb-3">
+                        <span class="bg-green-500/10 text-green-400 px-3 py-1 rounded-full text-sm font-medium" data-field="period">
+                          {exp.period}
+                        </span>
+                      </div>
+                      <h3 class="text-xl font-semibold text-white mb-2" data-field="role">{exp.role}</h3>
+                      <h4 class="text-green-400 font-medium mb-3" data-field="company">{exp.company}</h4>
+                      <p class="text-gray-300 text-sm mb-4" data-field="description" set:html={exp.description}></p>
+                      <div class="flex flex-wrap justify-end gap-2">
+                        {exp.technologies.map(tech => (
+                          <span class="bg-dark-700 text-green-400 px-3 py-1 rounded-full text-xs">{tech}</span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-green-500 rounded-full border-4 border-dark-950 z-10"></div>
+                  
+                  <div class="w-1/2 pl-8"></div>
+                </>
+              ) : (
+                <>
+                  <div class="w-1/2 pr-8"></div>
+                  
+                  <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-green-500 rounded-full border-4 border-dark-950 z-10"></div>
+                  
+                  <div class="w-1/2 pl-8">
+                    <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-6 hover:border-green-400/40 transition-all duration-300">
+                      <div class="flex items-center mb-3">
+                        <span class="bg-green-500/10 text-green-400 px-3 py-1 rounded-full text-sm font-medium" data-field="period">
+                          {exp.period}
+                        </span>
+                      </div>
+                      <h3 class="text-xl font-semibold text-white mb-2" data-field="role">{exp.role}</h3>
+                      <h4 class="text-green-400 font-medium mb-3" data-field="company">{exp.company}</h4>
+                      <p class="text-gray-300 text-sm mb-4" data-field="description" set:html={exp.description}></p>
+                      <div class="flex flex-wrap gap-2">
+                        {exp.technologies.map(tech => (
+                          <span class="bg-dark-700 text-green-400 px-2 py-1 rounded-full text-xs">{tech}</span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+    
+    <!-- Versión móvil del timeline -->
+    <div class="md:hidden">
+      <div class="relative">
+        <!-- Línea de timeline a la izquierda -->
+        <div class="absolute left-4 top-0 w-0.5 h-full bg-gradient-to-b from-green-400 to-green-600"></div>
+        
+        <div class="space-y-8">
+          {experiences.map((exp, index) => (
+            <div class="relative flex items-start" data-exp-index={index}>
+              <!-- Punto de timeline -->
+              <div class="absolute left-2.5 w-3 h-3 bg-green-500 rounded-full border-2 border-dark-950 z-10 mt-6"></div>
+              
+              <!-- Contenido -->
+              <div class="ml-10 bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-4">
+                <div class="flex items-center mb-3">
+                  <span class="bg-green-500/10 text-green-400 px-3 py-1 rounded-full text-sm font-medium" data-field="period">
+                    {exp.period}
+                  </span>
+                </div>
+                <h3 class="text-lg font-semibold text-white mb-2" data-field="role">{exp.role}</h3>
+                <h4 class="text-green-400 font-medium mb-3" data-field="company">{exp.company}</h4>
+                <p class="text-gray-300 text-sm mb-4" data-field="description" set:html={exp.descriptionMobile || exp.description}></p>
+                <div class="flex flex-wrap gap-2">
+                  {exp.technologies.map(tech => (
+                    <span class="bg-dark-700 text-green-400 px-2 py-1 rounded-full text-xs">{tech}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script define:vars={{ allData }}>
+  // Cambiar idioma dinámicamente
+  function updateExperiences() {
+    const lang = localStorage.getItem('lang') || 'en';
+    const data = allData[lang];
+    
+    if (!data) return;
+    
+    // Actualizar títulos
+    const titleEl = document.querySelector('[data-i18n="experience-title"]');
+    const subtitleEl = document.querySelector('[data-i18n="experience-subtitle"]');
+    
+    if (titleEl) titleEl.textContent = data.i18n.title;
+    if (subtitleEl) subtitleEl.textContent = data.i18n.subtitle;
+    
+    // Actualizar tarjetas de experiencia
+    data.experiences.forEach((exp, index) => {
+      // Buscar tarjetas por data-exp-index
+      const cards = document.querySelectorAll('[data-exp-index="' + index + '"]');
+      
+      cards.forEach(card => {
+        // Actualizar periodo
+        const periodEl = card.querySelector('[data-field="period"]');
+        if (periodEl) periodEl.textContent = exp.period;
+        
+        // Actualizar rol
+        const roleEl = card.querySelector('[data-field="role"]');
+        if (roleEl) roleEl.textContent = exp.role;
+        
+        // Actualizar compañía
+        const companyEl = card.querySelector('[data-field="company"]');
+        if (companyEl) companyEl.textContent = exp.company;
+        
+        // Actualizar descripción
+        const descEl = card.querySelector('[data-field="description"]');
+        if (descEl) {
+          const isMobile = card.closest('.md\\:hidden') !== null;
+          const content = isMobile && exp.descriptionMobile ? exp.descriptionMobile : exp.description;
+          descEl.innerHTML = content;
+        }
+      });
+    });
+  }
+  
+  // Escuchar evento de cambio de idioma
+  window.addEventListener('languageChanged', (e) => {
+    updateExperiences();
+  });
+  
+  // Ejecutar al cargar
+  document.addEventListener('DOMContentLoaded', updateExperiences);
+  
+  // También ejecutar cuando se recargar después de cambiar idioma
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', updateExperiences);
+  } else {
+    updateExperiences();
+  }
+</script>

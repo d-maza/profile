@@ -1,0 +1,62 @@
+{
+  "formal": [
+    {
+      "degree": "Ingeniería en Sistemas Computacionales",
+      "institution": "Universidad TecnoModerna",
+      "period": "2018 - 2022",
+      "status": "Titulado",
+      "description": "Especialización en desarrollo de software con enfoque en tecnologías web modernas y arquitecturas escalables. Proyecto de tesis sobre Progressive Web Apps."
+    },
+    {
+      "degree": "Técnico en Programación",
+      "institution": "Instituto Tecnológico",
+      "period": "2016 - 2018",
+      "status": "Certificado",
+      "description": "Fundamentos sólidos en programación, estructuras de datos y algoritmos. Introducción al desarrollo web con HTML, CSS y JavaScript."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Angular Developer Certification",
+      "provider": "Meta (Facebook)",
+      "year": "2024",
+      "emoji": "⚛️",
+      "color": "blue"
+    },
+    {
+      "name": "Nuxt Complete Developer",
+      "provider": "Nuxt School",
+      "year": "2023",
+      "emoji": "📱",
+      "color": "green"
+    },
+    {
+      "name": "AWS Cloud Practitioner",
+      "provider": "Amazon Web Services",
+      "year": "2023",
+      "emoji": "☁️",
+      "color": "orange"
+    },
+    {
+      "name": "NestJS Expert",
+      "provider": "NestJS",
+      "year": "2024",
+      "emoji": "🚀",
+      "color": "purple"
+    },
+    {
+      "name": "Google UX Design",
+      "provider": "Google",
+      "year": "2022",
+      "emoji": "🎯",
+      "color": "red"
+    },
+    {
+      "name": "TypeScript Expert",
+      "provider": "Microsoft",
+      "year": "2023",
+      "emoji": "💎",
+      "color": "indigo"
+    }
+  ]
+}

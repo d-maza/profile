@@ -1,0 +1,112 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "svg": "/projects/marderfons.png",
+      "category": "marderfons",
+      "name": "Mar de Fons",
+      "description": "Complete e-commerce platform with shopping cart, payment gateway, and admin panel. Developed with Angular and Node.js.",
+      "technologies": ["Angular", "Node.js", "MongoDB", "Stripe"],
+      "links": {
+        "demo": "#",
+        "code": "#"
+      }
+    },
+    {
+      "id": 2,
+      "svg": "/projects/festivalplanner.png",
+      "category": "Dashboard",
+      "name": "Analytics Dashboard",
+      "description": "Interactive dashboard for data visualization with real-time charts, advanced filters, and report export.",
+      "technologies": ["Nuxt", "D3.js", "Firebase", "Chart.js"],
+      "links": {
+        "demo": "#",
+        "code": "#"
+      }
+    },
+    {
+      "id": 3,
+      "svg": "/projects/cataloniahotels.png",
+      "category": "Web App",
+      "name": "Creative Portfolio",
+      "description": "Interactive portfolio for artists with image gallery, parallax effects, and smooth animations. Optimized for mobile devices.",
+      "technologies": ["Astro", "GSAP", "Tailwind", "TypeScript"],
+      "links": {
+        "demo": "#",
+        "code": "#"
+      }
+    },
+    {
+      "id": 4,
+      "svg": "/projects/MyFood.png",
+      "category": "E-commerce",
+      "name": "Fashion Store",
+      "description": "Fashion online store with size system, wishlist, and AI-powered personalized recommendations.",
+      "technologies": ["Vue.js", "Laravel", "Redis", "Algolia"],
+      "links": {
+        "demo": "#",
+        "code": "#"
+      }
+    },
+    {
+      "id": 5,
+      "svg": "/projects/MyFood - Api.png",
+      "category": "Fitness App",
+      "name": "FitTracker Pro",
+      "description": "Workout tracking app with personalized plans, statistics, and active community.",
+      "technologies": ["React Native", "Firebase", "TensorFlow", "GraphQL"],
+      "links": {
+        "demo": "#",
+        "code": "#"
+      }
+    },
+    {
+      "id": 6,
+      "svg": "/projects/ahorra_luz.png",
+      "category": "EdTech",
+      "name": "LearnHub",
+      "description": "Educational platform with interactive courses, real-time assessments, and digital certifications.",
+      "technologies": ["Next.js", "PostgreSQL", "WebRTC", "AWS"],
+      "links": {
+        "demo": "#",
+        "code": "#"
+      }
+    },
+    {
+      "id": 7,
+      "svg": "/projects/Artisant Beers.png",
+      "category": "Real Estate",
+      "name": "HomeQuest",
+      "description": "Real estate portal with 360° virtual tours, AI-powered advanced search, and real-time bidding system.",
+      "technologies": ["Angular", "NestJS", "Three.js", "Socket.io"],
+      "links": {
+        "demo": "#",
+        "code": "#"
+      }
+    },
+    {
+      "id": 8,
+      "svg": "/projects/traductorAI.png",
+      "category": "Food Tech",
+      "name": "QuickBite",
+      "description": "Food delivery app with real-time tracking, loyalty program, and personalized recommendations.",
+      "technologies": ["React", "Spring Boot", "MongoDB", "Mapbox"],
+      "links": {
+        "demo": "#",
+        "code": "#"
+      }
+    },
+    {
+      "id": 9,
+      "svg": "/projects/iahorro.png",
+      "category": "Business",
+      "name": "TaskFlow CRM",
+      "description": "Complete CRM system with sales automation, predictive analytics, and advanced pipeline management.",
+      "technologies": ["Vue.js", "TypeScript", "Supabase", "Stripe"],
+      "links": {
+        "demo": "#",
+        "code": "#"
+      }
+    }
+  ]
+}

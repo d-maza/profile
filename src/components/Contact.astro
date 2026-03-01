@@ -1,0 +1,129 @@
+---
+// Sección de contacto
+import i18nEs from '../data/i18n/es.json';
+import i18nEn from '../data/i18n/en.json';
+
+const allData = {
+  es: { contact: i18nEs.contact || {} },
+  en: { contact: i18nEn.contact || {} },
+};
+---
+
+<section id="contacto" class="py-20 relative">
+  <div class="container mx-auto px-6">
+    <!-- Título de la sección -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        <span class="bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent" data-i18n="contact-title">
+          Trabajemos Juntos
+        </span>
+      </h2>
+      <p class="text-xl text-gray-300 max-w-3xl mx-auto" data-i18n="contact-subtitle">
+        ¿Tienes un proyecto en mente? Me encantaría conocer tus ideas y 
+        ayudarte a convertirlas en realidad.
+      </p>
+    </div>
+    
+    <div class="max-w-6xl mx-auto">
+      <div class="flex justify-center">
+        
+        <!-- Información de contacto -->
+        <div class="max-w-2xl">
+          <h3 class="text-2xl font-bold text-white mb-8 text-center">Información de Contacto</h3>
+          
+          <!-- Métodos de contacto -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Email -->
+            <div class="flex items-center gap-4 p-4 bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg hover:border-green-400/40 transition-all duration-300">
+              <div class="w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-white font-medium">Email</h4>
+                <a href="mailto:david@maza.dev" class="text-green-400 hover:text-green-300 transition-colors">
+                  david@maza.dev
+                </a>
+              </div>
+            </div>
+            
+            <!-- WhatsApp -->
+            <div class="flex items-center gap-4 p-4 bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg hover:border-green-400/40 transition-all duration-300 group">
+              <div class="w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 0C5.373 0 0 5.373 0 12c0 2.148.569 4.262 1.653 6.115L.33 23.618c-.285.855.21 1.78 1.065 2.064.855.286 1.78-.211 2.064-1.065l1.352-4.056C7.738 23.431 9.847 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-1.822 0-3.578-.489-5.096-1.345l-.365-.21-3.794 1.138 1.138-3.794-.21-.365C1.671 15.578 1.182 13.822 1.182 12 1.182 6.552 6.552 1.182 12 1.182s10.818 5.37 10.818 10.818-5.37 10.818-10.818 10.818zm5.108-8.024c-.28-.14-1.657-.82-1.916-.911-.259-.09-.448-.14-.636.14-.189.28-.73.911-.893 1.099-.163.189-.325.21-.605.07-.28-.14-1.181-.437-2.246-1.387-.831-.739-1.39-1.652-1.553-1.932-.163-.28-.017-.432.122-.571.126-.122.28-.323.42-.485.14-.163.186-.282.28-.47.093-.189.047-.353-.023-.492-.07-.14-.636-1.521-.871-2.082-.227-.54-.457-.467-.636-.477-.163-.01-.351-.01-.54-.01-.189 0-.492.07-.75.35-.258.28-.984.963-.984 2.349 0 1.386 1.007 2.726 1.147 2.915.14.189 1.973 3.023 4.78 4.236.668.3 1.19.464 1.596.594.669.213 1.278.183 1.763.111.538-.08 1.656-.679 1.888-1.335.233-.656.233-1.218.163-1.335-.07-.117-.268-.189-.568-.328z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-white font-medium">WhatsApp</h4>
+                <a href="https://wa.me/34654615752" target="_blank" rel="noopener noreferrer" class="text-green-400 hover:text-green-300 transition-colors">
+                  <span class="group-hover:hidden" data-i18n="whatsapp-hidden">+34 *** *** ***</span>
+                  <span class="hidden group-hover:inline" data-i18n="whatsapp-full">+34 654 615 752</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Redes sociales -->
+          <div class="mt-8">
+            <h4 class="text-white font-medium mb-4">Sígueme en</h4>
+            <div class="flex gap-4">
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/davidmaza76/" target="_blank" rel="noopener noreferrer"
+                 class="w-12 h-12 bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg flex items-center justify-center hover:border-green-400/40 hover:bg-green-500/10 transition-all duration-300">
+                <svg class="w-6 h-6 text-green-400" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
+              
+              <!-- GitHub -->
+              <a href="https://github.com/d-maza" target="_blank" rel="noopener noreferrer"
+                 class="w-12 h-12 bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg flex items-center justify-center hover:border-green-400/40 hover:bg-green-500/10 transition-all duration-300">
+                <svg class="w-6 h-6 text-green-400" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </a>
+              
+              <!-- X (Twitter) -->
+              <a href="https://x.com/MazaPower" target="_blank" rel="noopener noreferrer"
+                 class="w-12 h-12 bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg flex items-center justify-center hover:border-green-400/40 hover:bg-green-500/10 transition-all duration-300">
+                <svg class="w-6 h-6 text-green-400" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script define:vars={{ allData }}>
+  function updateContact() {
+    const lang = localStorage.getItem('lang') || 'en';
+    const data = allData[lang];
+    
+    if (!data || !data.contact) return;
+    
+    const titleEl = document.querySelector('[data-i18n="contact-title"]');
+    const subtitleEl = document.querySelector('[data-i18n="contact-subtitle"]');
+    const whatsappHiddenEl = document.querySelector('[data-i18n="whatsapp-hidden"]');
+    const whatsappFullEl = document.querySelector('[data-i18n="whatsapp-full"]');
+    
+    if (titleEl) titleEl.textContent = data.contact.title;
+    if (subtitleEl) subtitleEl.textContent = data.contact.subtitle;
+    if (whatsappHiddenEl) whatsappHiddenEl.textContent = data.contact.whatsapp.hidden;
+    if (whatsappFullEl) whatsappFullEl.textContent = data.contact.whatsapp.value;
+  }
+  
+  window.addEventListener('languageChanged', () => {
+    updateContact();
+  });
+  
+  document.addEventListener('DOMContentLoaded', updateContact);
+  if (document.readyState !== 'loading') {
+    updateContact();
+  }
+</script>

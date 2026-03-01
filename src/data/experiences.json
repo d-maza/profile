@@ -1,0 +1,35 @@
+{
+  "experiences": [
+    {
+      "period": "2025 - Presente",
+      "company": "iAhorro",
+      "role": "Senior Front Developer",
+      "description": "<a href=\"https://www.iahorro.com/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-green-300 hover:text-green-200 transition-colors duration-300\"><b>iAhorro.com</b></a><br>Plataforma digital de intermediación hipotecaria, líder en España con soluciones de financiación inmobiliaria.<br>Stack Angular 20 en CRM, Landing y Área de Usuario con Nuxt, CMS en Vue 2. Sistema de Transaccionales en ExpressJS. Testing End-to-End con Cypress. Despliegue con Bitbucket en AWS.",
+      "descriptionMobile": "Plataforma de intermediación hipotecaria líder en España.<br>Angular 20 en CRM, Nuxt en Landing y Área de Usuario. Sistema de Transaccionales en ExpressJS con Cypress en AWS.",
+      "technologies": ["Angular 20", "Nuxt", "Vue 2", "ExpressJS", "Cypress", "Jenkins", "Bitbucket", "AWS"]
+    },
+    {
+      "period": "2024 - 2025",
+      "company": "HolaCons",
+      "role": "Senior Front Developer",
+      "description": "<a href=\"https://www.cataloniahotels.com/es\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-green-300 hover:text-green-200 transition-colors duration-300\"><b>Catalonia Hotels & Resort</b></a><br>WebApp de reservas hoteleras con 77 hoteles con más de 25 destinos internacionales y nacionales.<br>Stack Angular SSR con RXjs, con integraciones para GTM, New Relic, Angular Material, PrimeNG. Back en Symfony v.6 y CMS en DRUPAL bajo Google Cloud Platform.",
+      "descriptionMobile": "WebApp de reservas hoteleras con 77 hoteles y 25+ destinos.<br>Angular SSR con RXjs, Angular Material, PrimeNG. Backend Symfony y CMS Drupal en GCP.",
+      "technologies": ["Angular SSR", "RXjs", "Angular Material", "PrimeNG", "Symfony", "Drupal", "Google Cloud Platform"]
+    },
+    {
+      "period": "2023 - 2024",
+      "company": "T-Systems",
+      "role": "Desarrollador Full Stack",
+      "description": "<strong class=\"text-green-300\">Festival Planner</strong><br>MVP con Ionic (Angular) para edición de mapas de festivales de música en tiempo real. Desarrollado con Ionic, ArcGIS, TypeORM, WebSocket, OpenTelemetry en AWS.<br><br><strong class=\"text-green-300\">Abertis (Autopistas)</strong><br>Migraciones ABERTIS con Docker y migración de PHP 5.6 a 7.2.",
+      "descriptionMobile": "<strong class=\"text-white\">Festival Planner</strong><br>MVP con Ionic (Angular) para edición de mapas de festivales de música en tiempo real. Desarrollado con Ionic, ArcGIS, TypeORM, WebSocket, OpenTelemetry en AWS.<br><br><strong class=\"text-white\">Abertis (Autopistas)</strong><br>Migraciones ABERTIS con Docker y migración de PHP 5.6 a 7.2.",
+      "technologies": ["Ionic", "ArcGIS", "TypeORM", "WebSocket", "PHP" , "GitLab" ,  "Docker", "AWS" ]
+    },
+    {
+      "period": "2020 - 2023",
+      "company": "Freelance",
+      "role": "Web Designer & Web Developer",
+      "description": "App MyFood con Angular y Stripe. Migración Moduletic de JavaScript vanilla a Angular/MySQL. WordPress y Laravel.",
+      "technologies": ["Angular", "Spring Boot", "PostgreSQL", "Laravel", "WordPress", "Stripe" , "GitHub"]
+    }
+  ]
+}

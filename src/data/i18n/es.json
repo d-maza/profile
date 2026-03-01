@@ -1,0 +1,187 @@
+{
+  "navigation": {
+    "logo": "davidmaza.dev",
+    "links": {
+      "home": "Inicio",
+      "experience": "Experiencia",
+      "projects": "Proyectos",
+      "education": "Formación",
+      "contact": "Contacto"
+    },
+    "cta": "Hablemos"
+  },
+  "hero": {
+    "greeting": "👋 ¡Hola! Soy desarrollador frontend",
+    "name": "David Maza",
+    "description": "Creo experiencias web modernas y funcionales que conectan con los usuarios.",
+    "specialization": "Especializado en",
+    "framework": "Angular",
+    "stats": {
+      "experience": {
+        "value": "años",
+        "label": "Años de experiencia"
+      },
+      "projects": {
+        "value": "25+",
+        "label": "Proyectos completados"
+      },
+      "clients": {
+        "value": "100%",
+        "label": "Clientes satisfechos"
+      }
+    },
+    "cta": {
+      "projects": "Ver mis proyectos",
+      "cv": "Descargar CV"
+    }
+  },
+  "experience": {
+    "title": "Mi Experiencia",
+    "subtitle": "He trabajado en diversos proyectos, desde startups hasta empresas establecidas, creando soluciones web innovadoras y eficientes."
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "subtitle": "Una selección de mis trabajos más recientes que demuestran mis habilidades y pasión por crear experiencias web excepcionales.",
+    "items": [
+      {
+        "id": 1,
+        "svg": "/angular.svg",
+        "category": "E-commerce",
+        "name": "TechStore Pro",
+        "description": "Plataforma de e-commerce completa con carrito de compras, pasarela de pagos y panel de administración. Desarrollada con Angular y Node.js.",
+        "technologies": ["Angular", "Node.js", "MongoDB", "Stripe"],
+        "links": {
+          "demo": "#",
+          "code": "#"
+        }
+      },
+      {
+        "id": 2,
+        "emoji": "📱",
+        "category": "Dashboard",
+        "name": "Analytics Dashboard",
+        "description": "Dashboard interactivo para visualización de datos con gráficos en tiempo real, filtros avanzados y exportación de reportes.",
+        "technologies": ["Nuxt", "D3.js", "Firebase", "Chart.js"],
+        "links": {
+          "demo": "#",
+          "code": "#"
+        }
+      },
+      {
+        "id": 3,
+        "emoji": "🎨",
+        "category": "Web App",
+        "name": "Creative Portfolio",
+        "description": "Portfolio interactivo para artistas con galería de imágenes, efectos de parallax y animaciones suaves. Optimizado para dispositivos móviles.",
+        "technologies": ["Astro", "GSAP", "Tailwind", "TypeScript"],
+        "links": {
+          "demo": "#",
+          "code": "#"
+        }
+      }
+    ],
+    "viewDemo": "Ver demo",
+    "viewCode": "Código",
+    "viewAll": "Ver todos los proyectos",
+    "viewLess": "Ver menos proyectos"
+  },
+  "education": {
+    "title": "Formación y Certificaciones",
+    "subtitle": "Mi compromiso con el aprendizaje continuo me mantiene actualizado con las últimas tecnologías y mejores prácticas del desarrollo frontend.",
+    "formal": {
+      "title": "Educación Formal",
+      "items": [
+        {
+          "degree": "Ingeniería en Sistemas Computacionales",
+          "institution": "Universidad TecnoModerna",
+          "period": "2018 - 2022",
+          "status": "Titulado",
+          "description": "Especialización en desarrollo de software con enfoque en tecnologías web modernas y arquitecturas escalables. Proyecto de tesis sobre Progressive Web Apps."
+        },
+        {
+          "degree": "Técnico en Programación",
+          "institution": "Instituto Tecnológico",
+          "period": "2016 - 2018",
+          "status": "Certificado",
+          "description": "Fundamentos sólidos en programación, estructuras de datos y algoritmos. Introducción al desarrollo web con HTML, CSS y JavaScript."
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Certificaciones Profesionales",
+      "status": "Verificado",
+      "items": [
+        {
+          "name": "Angular Developer Certification",
+          "provider": "Meta (Facebook)",
+          "year": "2024",
+          "emoji": "⚛️"
+        },
+        {
+          "name": "Nuxt Complete Developer",
+          "provider": "Nuxt School",
+          "year": "2023",
+          "emoji": "📱"
+        },
+        {
+          "name": "AWS Cloud Practitioner",
+          "provider": "Amazon Web Services",
+          "year": "2023",
+          "emoji": "☁️"
+        },
+        {
+          "name": "NestJS Expert",
+          "provider": "NestJS",
+          "year": "2024",
+          "emoji": "🚀"
+        },
+        {
+          "name": "Google UX Design",
+          "provider": "Google",
+          "year": "2022",
+          "emoji": "🎯"
+        },
+        {
+          "name": "TypeScript Expert",
+          "provider": "Microsoft",
+          "year": "2023",
+          "emoji": "💎"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Habilidades Principales",
+      "items": [
+        { "name": "Angular", "svg": "/angular.svg" },
+        { "name": "Nuxt", "svg": "/nuxt.svg" },
+        { "name": "NestJS", "svg": "/nestjs.svg" },
+        { "name": "TypeScript", "svg": "/typescript.svg" },
+        { "name": "Laravel", "svg": "/laravel.svg" },
+        { "name": "Spring Boot", "svg": "/spring.svg" }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Trabajemos Juntos",
+    "subtitle": "¿Tienes un proyecto en mente? Me encantaría conocer tus ideas y ayudarte a convertirlas en realidad.",
+    "info": "Información de Contacto",
+    "email": {
+      "label": "Email",
+      "value": "david@maza.dev"
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "value": "+34 654 615 752",
+      "hidden": "+34 *** *** ***"
+    },
+    "social": "Sígueme en"
+  },
+  "footer": {
+    "description": "Desarrollador Frontend especializado en crear experiencias web modernas y funcionales que conectan con los usuarios.",
+    "quickLinks": "Enlaces Rápidos",
+    "contactSection": "Contacto",
+    "copyright": "© 2026 David Maza. Todos los derechos reservados.",
+    "madeWith": "Hecho con ❤️ usando Astro",
+    "scrollToTop": "Volver arriba"
+  }
+}

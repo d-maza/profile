@@ -1,0 +1,187 @@
+{
+  "navigation": {
+    "logo": "davidmaza.dev",
+    "links": {
+      "home": "Home",
+      "experience": "Experience",
+      "projects": "Projects",
+      "education": "Education",
+      "contact": "Contact"
+    },
+    "cta": "Let's Talk"
+  },
+  "hero": {
+    "greeting": "👋 Hi! I'm a frontend developer",
+    "name": "David Maza",
+    "description": "I create modern and functional web experiences that connect with users.",
+    "specialization": "Specialized in",
+    "framework": "Angular",
+    "stats": {
+      "experience": {
+        "value": "years",
+        "label": "Years of experience"
+      },
+      "projects": {
+        "value": "25+",
+        "label": "Completed projects"
+      },
+      "clients": {
+        "value": "100%",
+        "label": "Satisfied clients"
+      }
+    },
+    "cta": {
+      "projects": "View my projects",
+      "cv": "Download CV"
+    }
+  },
+  "experience": {
+    "title": "My Experience",
+    "subtitle": "I have worked on diverse projects, from startups to established companies, creating innovative and efficient web solutions."
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "A selection of my most recent work demonstrating my skills and passion for creating exceptional web experiences.",
+    "items": [
+      {
+        "id": 1,
+        "svg": "/angular.svg",
+        "category": "E-commerce",
+        "name": "TechStore Pro",
+        "description": "Complete e-commerce platform with shopping cart, payment gateway, and admin panel. Developed with Angular and Node.js.",
+        "technologies": ["Angular", "Node.js", "MongoDB", "Stripe"],
+        "links": {
+          "demo": "#",
+          "code": "#"
+        }
+      },
+      {
+        "id": 2,
+        "emoji": "📱",
+        "category": "Dashboard",
+        "name": "Analytics Dashboard",
+        "description": "Interactive dashboard for data visualization with real-time charts, advanced filters, and report export.",
+        "technologies": ["Nuxt", "D3.js", "Firebase", "Chart.js"],
+        "links": {
+          "demo": "#",
+          "code": "#"
+        }
+      },
+      {
+        "id": 3,
+        "emoji": "🎨",
+        "category": "Web App",
+        "name": "Creative Portfolio",
+        "description": "Interactive portfolio for artists with image gallery, parallax effects, and smooth animations. Optimized for mobile devices.",
+        "technologies": ["Astro", "GSAP", "Tailwind", "TypeScript"],
+        "links": {
+          "demo": "#",
+          "code": "#"
+        }
+      }
+    ],
+    "viewDemo": "View demo",
+    "viewCode": "Code",
+    "viewAll": "View all projects",
+    "viewLess": "View less projects"
+  },
+  "education": {
+    "title": "Education and Certifications",
+    "subtitle": "My commitment to continuous learning keeps me updated with the latest technologies and best practices in frontend development.",
+    "formal": {
+      "title": "Formal Education",
+      "items": [
+        {
+          "degree": "Computer Systems Engineering",
+          "institution": "TecnoModerna University",
+          "period": "2018 - 2022",
+          "status": "Graduate",
+          "description": "Specialization in software development with focus on modern web technologies and scalable architectures. Thesis project on Progressive Web Apps."
+        },
+        {
+          "degree": "Programming Technician",
+          "institution": "Technical Institute",
+          "period": "2016 - 2018",
+          "status": "Certificate",
+          "description": "Solid foundations in programming, data structures and algorithms. Introduction to web development with HTML, CSS and JavaScript."
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Professional Certifications",
+      "status": "Verified",
+      "items": [
+        {
+          "name": "Angular Developer Certification",
+          "provider": "Meta (Facebook)",
+          "year": "2024",
+          "emoji": "⚛️"
+        },
+        {
+          "name": "Nuxt Complete Developer",
+          "provider": "Nuxt School",
+          "year": "2023",
+          "emoji": "📱"
+        },
+        {
+          "name": "AWS Cloud Practitioner",
+          "provider": "Amazon Web Services",
+          "year": "2023",
+          "emoji": "☁️"
+        },
+        {
+          "name": "NestJS Expert",
+          "provider": "NestJS",
+          "year": "2024",
+          "emoji": "🚀"
+        },
+        {
+          "name": "Google UX Design",
+          "provider": "Google",
+          "year": "2022",
+          "emoji": "🎯"
+        },
+        {
+          "name": "TypeScript Expert",
+          "provider": "Microsoft",
+          "year": "2023",
+          "emoji": "💎"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Main Skills",
+      "items": [
+        { "name": "Angular", "svg": "/angular.svg" },
+        { "name": "Nuxt", "svg": "/nuxt.svg" },
+        { "name": "NestJS", "svg": "/nestjs.svg" },
+        { "name": "TypeScript", "svg": "/typescript.svg" },
+        { "name": "Laravel", "svg": "/laravel.svg" },
+        { "name": "Spring Boot", "svg": "/spring.svg" }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "Have a project in mind? I'd love to hear your ideas and help you bring them to life.",
+    "info": "Contact Information",
+    "email": {
+      "label": "Email",
+      "value": "david@maza.dev"
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "value": "+34 654 615 752",
+      "hidden": "+34 *** *** ***"
+    },
+    "social": "Follow me on"
+  },
+  "footer": {
+    "description": "Frontend Developer specialized in creating modern and functional web experiences that connect with users.",
+    "quickLinks": "Quick Links",
+    "contactSection": "Contact",
+    "copyright": "© 2026 David Maza. All rights reserved.",
+    "madeWith": "Made with ❤️ using Astro",
+    "scrollToTop": "Back to top"
+  }
+}

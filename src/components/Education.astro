@@ -1,0 +1,258 @@
+---
+// Sección de formación académica y certificaciones
+import educationEs from '../data/education-es.json';
+import educationEn from '../data/education-en.json';
+import i18nEs from '../data/i18n/es.json';
+import i18nEn from '../data/i18n/en.json';
+
+const allData = {
+  es: { i18n: i18nEs.education },
+  en: { i18n: i18nEn.education },
+};
+
+// Por defecto español
+const i18n = i18nEs.education;
+---
+
+<section id="formacion" class="py-20 relative">
+  <div class="container mx-auto px-6">
+    <!-- Título de la sección -->
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">
+        <span class="bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent" data-i18n="education-title">
+          {i18n.title}
+        </span>
+      </h2>
+      <p class="text-xl text-gray-300 max-w-3xl mx-auto" data-i18n="education-subtitle">
+        {i18n.subtitle}
+      </p>
+    </div>
+    
+    <div class="max-w-5xl mx-auto">
+      <!-- Educación Formal -->
+      <div class="mb-16">
+        <h3 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+          <div class="w-8 h-8 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center">
+            🎓
+          </div>
+          Educación Formal
+        </h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Educación 1 -->
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-6 hover:border-green-400/40 transition-all duration-300">
+            <div class="flex items-start justify-between mb-4">
+              <div>
+                <h4 class="text-lg font-semibold text-white mb-2">Ingeniería en Sistemas Computacionales</h4>
+                <p class="text-green-400 font-medium">Universidad TecnoModerna</p>
+                <p class="text-gray-400 text-sm">2018 - 2022</p>
+              </div>
+              <div class="bg-green-500/10 backdrop-blur-sm rounded-full p-2">
+                <span class="text-green-400 text-xs font-medium">Titulado</span>
+              </div>
+            </div>
+            <p class="text-gray-300 text-sm">
+              Especialización en desarrollo de software con enfoque en tecnologías web modernas 
+              y arquitecturas escalables. Proyecto de tesis sobre Progressive Web Apps.
+            </p>
+          </div>
+          
+          <!-- Educación 2 -->
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-6 hover:border-green-400/40 transition-all duration-300">
+            <div class="flex items-start justify-between mb-4">
+              <div>
+                <h4 class="text-lg font-semibold text-white mb-2">Técnico en Programación</h4>
+                <p class="text-green-400 font-medium">Instituto Tecnológico</p>
+                <p class="text-gray-400 text-sm">2016 - 2018</p>
+              </div>
+              <div class="bg-green-500/10 backdrop-blur-sm rounded-full p-2">
+                <span class="text-green-400 text-xs font-medium">Certificado</span>
+              </div>
+            </div>
+            <p class="text-gray-300 text-sm">
+              Fundamentos sólidos en programación, estructuras de datos y algoritmos. 
+              Introducción al desarrollo web con HTML, CSS y JavaScript.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Certificaciones -->
+      <div>
+        <h3 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+          <div class="w-8 h-8 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center">
+            🏆
+          </div>
+          Certificaciones Profesionales
+        </h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Certificación 1 -->
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-6 hover:border-green-400/40 transition-all duration-300 group">
+            <div class="text-center">
+              <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl">
+                ⚛️
+              </div>
+              <h4 class="text-lg font-semibold text-white mb-2">React Developer Certification</h4>
+              <p class="text-blue-400 font-medium mb-2">Meta (Facebook)</p>
+              <p class="text-gray-400 text-sm mb-4">2024</p>
+              <div class="bg-green-500/10 backdrop-blur-sm rounded-full px-3 py-1">
+                <span class="text-green-400 text-xs font-medium">Verificado</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Certificación 2 -->
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-6 hover:border-green-400/40 transition-all duration-300 group">
+            <div class="text-center">
+              <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl">
+                📱
+              </div>
+              <h4 class="text-lg font-semibold text-white mb-2">Nuxt Complete Developer</h4>
+              <p class="text-green-400 font-medium mb-2">Nuxt School</p>
+              <p class="text-gray-400 text-sm mb-4">2023</p>
+              <div class="bg-green-500/10 backdrop-blur-sm rounded-full px-3 py-1">
+                <span class="text-green-400 text-xs font-medium">Verificado</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Certificación 3 -->
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-6 hover:border-green-400/40 transition-all duration-300 group">
+            <div class="text-center">
+              <div class="w-16 h-16 bg-gradient-to-r from-yellow-500 to-orange-600 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl">
+                ☁️
+              </div>
+              <h4 class="text-lg font-semibold text-white mb-2">AWS Cloud Practitioner</h4>
+              <p class="text-orange-400 font-medium mb-2">Amazon Web Services</p>
+              <p class="text-gray-400 text-sm mb-4">2023</p>
+              <div class="bg-green-500/10 backdrop-blur-sm rounded-full px-3 py-1">
+                <span class="text-green-400 text-xs font-medium">Verificado</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Certificación 4 -->
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-6 hover:border-green-400/40 transition-all duration-300 group">
+            <div class="text-center">
+              <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl">
+                🚀
+              </div>
+              <h4 class="text-lg font-semibold text-white mb-2">NestJS Expert</h4>
+              <p class="text-green-400 font-medium mb-2">NestJS</p>
+              <p class="text-gray-400 text-sm mb-4">2024</p>
+              <div class="bg-green-500/10 backdrop-blur-sm rounded-full px-3 py-1">
+                <span class="text-green-400 text-xs font-medium">Verificado</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Certificación 5 -->
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-6 hover:border-green-400/40 transition-all duration-300 group">
+            <div class="text-center">
+              <div class="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl">
+                🎯
+              </div>
+              <h4 class="text-lg font-semibold text-white mb-2">Google UX Design</h4>
+              <p class="text-red-400 font-medium mb-2">Google</p>
+              <p class="text-gray-400 text-sm mb-4">2022</p>
+              <div class="bg-green-500/10 backdrop-blur-sm rounded-full px-3 py-1">
+                <span class="text-green-400 text-xs font-medium">Verificado</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Certificación 6 -->
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-6 hover:border-green-400/40 transition-all duration-300 group">
+            <div class="text-center">
+              <div class="w-16 h-16 bg-gradient-to-r from-indigo-500 to-indigo-600 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl">
+                💎
+              </div>
+              <h4 class="text-lg font-semibold text-white mb-2">TypeScript Expert</h4>
+              <p class="text-indigo-400 font-medium mb-2">Microsoft</p>
+              <p class="text-gray-400 text-sm mb-4">2023</p>
+              <div class="bg-green-500/10 backdrop-blur-sm rounded-full px-3 py-1">
+                <span class="text-green-400 text-xs font-medium">Verificado</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Skills destacados -->
+      <div class="mt-16">
+        <h3 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+          <div class="w-8 h-8 bg-gradient-to-r from-green-500 to-green-600 rounded-lg flex items-center justify-center">
+            ⚡
+          </div>
+          <span data-i18n="skills-title">Habilidades Principales</span>
+        </h3>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-4 text-center hover:border-green-400/40 transition-all duration-300">
+            <div class="flex items-center justify-center mb-2 h-8">
+              <img src="/angular.svg" alt="Angular" class="w-8 h-8" />
+            </div>
+            <div class="text-sm text-white font-medium">Angular</div>
+          </div>
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-4 text-center hover:border-green-400/40 transition-all duration-300">
+            <div class="flex items-center justify-center mb-2 h-8">
+              <img src="/nuxt.svg" alt="Nuxt" class="w-8 h-8" />
+            </div>
+            <div class="text-sm text-white font-medium">Nuxt</div>
+          </div>
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-4 text-center hover:border-green-400/40 transition-all duration-300">
+            <div class="flex items-center justify-center mb-2 h-8">
+              <img src="/nestjs.svg" alt="NestJS" class="w-8 h-8" />
+            </div>
+            <div class="text-sm text-white font-medium">NestJS</div>
+          </div>
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-4 text-center hover:border-green-400/40 transition-all duration-300">
+            <div class="flex items-center justify-center mb-2 h-8">
+              <img src="/typescript.svg" alt="TypeScript" class="w-8 h-8" />
+            </div>
+            <div class="text-sm text-white font-medium">TypeScript</div>
+          </div>
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-4 text-center hover:border-green-400/40 transition-all duration-300">
+            <div class="flex items-center justify-center mb-2 h-8">
+              <img src="/laravel.svg" alt="Laravel" class="w-8 h-8" />
+            </div>
+            <div class="text-sm text-white font-medium">Laravel</div>
+          </div>
+          <div class="bg-dark-800/50 backdrop-blur-sm border border-green-500/20 rounded-lg p-4 text-center hover:border-green-400/40 transition-all duration-300">
+            <div class="flex items-center justify-center mb-2 h-8">
+              <img src="/spring.svg" alt="Spring Boot" class="w-8 h-8" />
+            </div>
+            <div class="text-sm text-white font-medium">Spring Boot</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script define:vars={{ allData }}>
+  function updateEducation() {
+    const lang = localStorage.getItem('lang') || 'en';
+    const data = allData[lang];
+    
+    if (!data) return;
+    
+    const titleEl = document.querySelector('[data-i18n="education-title"]');
+    const subtitleEl = document.querySelector('[data-i18n="education-subtitle"]');
+    const skillsTitleEl = document.querySelector('[data-i18n="skills-title"]');
+    
+    if (titleEl) titleEl.textContent = data.i18n.title;
+    if (subtitleEl) subtitleEl.textContent = data.i18n.subtitle;
+    if (skillsTitleEl && data.i18n.skills) skillsTitleEl.textContent = data.i18n.skills.title;
+  }
+  
+  window.addEventListener('languageChanged', () => {
+    updateEducation();
+  });
+  
+  document.addEventListener('DOMContentLoaded', updateEducation);
+  if (document.readyState !== 'loading') {
+    updateEducation();
+  }
+</script>

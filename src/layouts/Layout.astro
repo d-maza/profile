@@ -1,0 +1,86 @@
+---
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Portfolio de Desarrollador Frontend" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="bg-dark-950 text-white antialiased scroll-smooth">
+    <!-- Fondo con gradiente estilo Linear -->
+    <div class="fixed inset-0 bg-gradient-to-br from-dark-950 via-dark-900 to-green-950 opacity-80"></div>
+    <div class="fixed inset-0 bg-grid-pattern opacity-5"></div>
+    
+    <!-- Contenido principal -->
+    <div class="relative z-10">
+      <slot />
+    </div>
+
+    <style>
+      .bg-grid-pattern {
+        background-image: 
+          linear-gradient(rgba(34, 197, 94, 0.1) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(34, 197, 94, 0.1) 1px, transparent 1px);
+        background-size: 50px 50px;
+      }
+      
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      }
+    </style>
+    
+    <script is:inline>
+      // Detectar idioma del navegador automáticamente
+      (function initLanguage() {
+        if (!localStorage.getItem('lang')) {
+          const browserLang = navigator.language.toLowerCase();
+          const lang = browserLang.startsWith('es') ? 'es' : 'en';
+          localStorage.setItem('lang', lang);
+          document.documentElement.lang = lang;
+        } else {
+          document.documentElement.lang = localStorage.getItem('lang') || 'en';
+        }
+      })();
+
+      // Escuchar cambios de idioma
+      window.addEventListener('languageChanged', (event) => {
+        document.documentElement.lang = event.detail.lang;
+      });
+
+      // Smooth scroll behavior for navigation links
+      document.addEventListener('DOMContentLoaded', function() {
+        const links = document.querySelectorAll('a[href^="#"]');
+        
+        links.forEach(link => {
+          link.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+              targetElement.scrollIntoView({
+                behavior: 'smooth'
+              });
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
