@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 1,
-      "svg": "/projects/marderfons.png",
+      "svg": "/projects/mardefons.png",
       "category": "marderfons",
       "name": "Mar de Fons",
       "description": "Complete e-commerce platform with shopping cart, payment gateway, and admin panel. Developed with Angular and Node.js.",

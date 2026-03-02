@@ -10,6 +10,8 @@ const allData = {
   en: { projects: projectsEn.projects, i18n: i18nEn.projects },
 };
 
+const withBase = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
+
 // Por defecto español
 const { projects } = projectsEs;
 const i18n = i18nEs.projects;
@@ -38,7 +40,7 @@ const i18n = i18nEs.projects;
             <div class="absolute inset-0 bg-grid-pattern opacity-20"></div>
             <div class="relative z-10 w-full h-full">
               {project.svg ? (
-                <img src={project.svg} alt={project.name} class={`w-full h-full object-cover ${project.id === 9 || project.id === 7 ? 'object-[center_20%]' : 'object-top'}`} />
+                <img src={withBase(project.svg)} alt={project.name} class={`w-full h-full object-cover ${project.id === 9 || project.id === 7 ? 'object-[center_20%]' : 'object-top'}`} />
               ) : (
                 <div class="w-full h-full flex items-center justify-center text-6xl">{project.emoji}</div>
               )}
