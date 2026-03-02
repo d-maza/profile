@@ -14,18 +14,6 @@
     },
     {
       "id": 2,
-      "svg": "/projects/festivalplanner.png",
-      "category": "App móvil",
-      "name": "Festival Planner",
-      "description": "Gestor de eventos para festivales de música con programación personalizada, mapas interactivos y notificaciones en tiempo real.",
-      "technologies": ["Angular", "Ionic", "ArcGIS", "Express", "PostgreSQL", "OpenTelemetry", "Docker", "AWS"],
-      "links": {
-        "demo": "#",
-        "code": "https://github.com/d-maza/festival-Back"
-      }
-    },
-    {
-      "id": 3,
       "svg": "/projects/cataloniahotels.png",
       "category": "Reservas hoteleras",
       "name": "Catalonia Hotels",
@@ -34,6 +22,18 @@
       "links": {
         "demo": "https://www.cataloniahotels.com/",
         "code": "#"
+      }
+    },
+    {
+      "id": 3,
+      "svg": "/projects/festivalplanner.png",
+      "category": "App móvil",
+      "name": "Festival Planner",
+      "description": "Gestor de eventos para festivales de música con programación personalizada, mapas interactivos y notificaciones en tiempo real.",
+      "technologies": ["Angular", "Ionic", "ArcGIS", "Express", "PostgreSQL", "OpenTelemetry", "Docker", "AWS"],
+      "links": {
+        "demo": "#",
+        "code": "https://github.com/d-maza/festival-Back"
       }
     },
     {
