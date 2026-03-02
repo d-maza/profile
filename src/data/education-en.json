@@ -1,62 +1,76 @@
 {
   "formal": [
     {
-      "degree": "Computer Systems Engineering",
-      "institution": "TecnoModerna University",
-      "period": "2018 - 2022",
-      "status": "Graduate",
-      "description": "Specialization in software development with focus on modern web technologies and scalable architectures. Thesis project on Progressive Web Apps."
+      "degree": "Full-Stack Development Bootcamp Angular & Laravel",
+      "institution": "ACTIUHUMA S.L.",
+      "period": "2022 - 2023",
+      "status": "Certificate",
+      "description": "Development of web projects with MEAN Stack and LAMP Stack, with final e-commerce project featuring double authentication and email notifications using SCRUM methodology (+240h)."
     },
     {
-      "degree": "Programming Technician",
-      "institution": "Technical Institute",
-      "period": "2016 - 2018",
+      "degree": "Front End Web Developer",
+      "institution": "Multimedia Tarragona S.L.",
+      "period": "2022",
       "status": "Certificate",
-      "description": "Solid foundations in programming, data structures and algorithms. Introduction to web development with HTML, CSS and JavaScript."
+      "description": "Development of websites and interactive projects with CSS and JavaScript (ES6), using Vue.js and extrapolating the process to other frameworks through experimentation (240h)."
+    },
+    {
+      "degree": "Open Source Back End Web Developer",
+      "institution": "Multimedia Tarragona S.L.",
+      "period": "2023",
+      "status": "Certificate",
+      "description": "REST API development with Node-Mongo-Express and Apache-Laravel-MySQL. Project deployment on Heroku and repository control with GitHub (240h)."
+    },
+    {
+      "degree": "Technical Degree in Microcomputer Systems and Networks",
+      "institution": "Institut Obert de Catalunya",
+      "period": "2008 - 2009",
+      "status": "Graduate",
+      "description": "Training in computer systems, networks and programming fundamentals."
     }
   ],
   "certifications": [
     {
-      "name": "Angular Developer Certification",
-      "provider": "Meta (Facebook)",
-      "year": "2024",
-      "emoji": "⚛️",
-      "color": "blue"
-    },
-    {
-      "name": "Nuxt Complete Developer",
-      "provider": "Nuxt School",
+      "name": "Advanced Angular",
+      "provider": "Platzi",
       "year": "2023",
-      "emoji": "📱",
-      "color": "green"
-    },
-    {
-      "name": "AWS Cloud Practitioner",
-      "provider": "Amazon Web Services",
-      "year": "2023",
-      "emoji": "☁️",
-      "color": "orange"
-    },
-    {
-      "name": "NestJS Expert",
-      "provider": "NestJS",
-      "year": "2024",
-      "emoji": "🚀",
-      "color": "purple"
-    },
-    {
-      "name": "Google UX Design",
-      "provider": "Google",
-      "year": "2022",
-      "emoji": "🎯",
+      "emoji": "🅰️",
       "color": "red"
     },
     {
-      "name": "TypeScript Expert",
-      "provider": "Microsoft",
+      "name": "Node.js API REST",
+      "provider": "Platzi",
+      "year": "2023",
+      "emoji": "🟢",
+      "color": "green"
+    },
+    {
+      "name": "TypeScript OOP",
+      "provider": "Platzi",
       "year": "2023",
       "emoji": "💎",
+      "color": "blue"
+    },
+    {
+      "name": "Laravel 9",
+      "provider": "Platzi",
+      "year": "2023",
+      "emoji": "🔴",
+      "color": "red"
+    },
+    {
+      "name": "Symfony 6",
+      "provider": "Certification",
+      "year": "2023",
+      "emoji": "⚫",
       "color": "indigo"
+    },
+    {
+      "name": "Git & GitHub",
+      "provider": "Platzi",
+      "year": "2023",
+      "emoji": "🐙",
+      "color": "purple"
     }
   ]
 }
