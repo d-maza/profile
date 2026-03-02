@@ -2,37 +2,37 @@
   "projects": [
     {
       "id": 1,
-      "svg": "/projects/mardefons.png",
-      "category": "marderfons",
-      "name": "Mar de Fons",
-      "description": "Plataforma de e-commerce completa con carrito de compras, pasarela de pagos y panel de administración. Desarrollada con Angular y Node.js.",
-      "technologies": ["Angular", "Node.js", "MongoDB", "Stripe"],
+      "svg": "/projects/iahorro.png",
+      "category": "Fintech",
+      "name": "IAhorro",
+      "description": "Plataforma de gestión financiera personal con análisis de gastos, presupuestos personalizados y recomendaciones de broker hipotecario basadas en IA.",
+      "technologies": ["Angular", "Nuxt", "Cypress", "AWS", "Angular Material", "Docker"],
       "links": {
-        "demo": "#",
+        "demo": "https://www.iahorro.com/",
         "code": "#"
       }
     },
     {
       "id": 2,
       "svg": "/projects/festivalplanner.png",
-      "category": "Dashboard",
-      "name": "Analytics Dashboard",
-      "description": "Dashboard interactivo para visualización de datos con gráficos en tiempo real, filtros avanzados y exportación de reportes.",
-      "technologies": ["Nuxt", "D3.js", "Firebase", "Chart.js"],
+      "category": "App móvil",
+      "name": "Festival Planner",
+      "description": "Gestor de eventos para festivales de música con programación personalizada, mapas interactivos y notificaciones en tiempo real.",
+      "technologies": ["Angular", "Ionic", "ArcGIS", "Express", "PostgreSQL", "OpenTelemetry", "Docker", "AWS"],
       "links": {
         "demo": "#",
-        "code": "#"
+        "code": "https://github.com/d-maza/festival-Back"
       }
     },
     {
       "id": 3,
       "svg": "/projects/cataloniahotels.png",
-      "category": "Web App",
-      "name": "Creative Portfolio",
-      "description": "Portfolio interactivo para artistas con galería de imágenes, efectos de parallax y animaciones suaves. Optimizado para dispositivos móviles.",
-      "technologies": ["Astro", "GSAP", "Tailwind", "TypeScript"],
+      "category": "Reservas hoteleras",
+      "name": "Catalonia Hotels",
+      "description": "Reservas hoteleras con disponibilidad en tiempo real, integración de pasarelas de pago y sistema de gestión de reservas.",
+      "technologies": ["Angular", "NewRelic", "Angular Material", "GTM", "Symphony", "Drupal", "Google Cloud"],
       "links": {
-        "demo": "#",
+        "demo": "https://www.cataloniahotels.com/",
         "code": "#"
       }
     },
@@ -40,57 +40,57 @@
       "id": 4,
       "svg": "/projects/MyFood.png",
       "category": "E-commerce",
-      "name": "Fashion Store",
-      "description": "Tienda online de moda con sistema de tallas, wishlist y recomendaciones personalizadas basadas en IA.",
-      "technologies": ["Vue.js", "Laravel", "Redis", "Algolia"],
+      "name": "MyFood",
+      "description": "Plataforma de e-commerce completa con carrito de compras, pasarela de pagos y panel de administración. Desarrollada con Angular y Node.js.",
+      "technologies": ["Angular", "Stripe", "AWS" , "Angular Material", "PrimeNG"],
       "links": {
         "demo": "#",
-        "code": "#"
+        "code": "https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/tsys-my-food-frontend"
       }
     },
     {
       "id": 5,
       "svg": "/projects/MyFood - Api.png",
-      "category": "Fitness App",
-      "name": "FitTracker Pro",
-      "description": "Aplicación de seguimiento de rutinas de ejercicio con planes personalizados, estadísticas y comunidad activa.",
-      "technologies": ["React Native", "Firebase", "TensorFlow", "GraphQL"],
+      "category": "BackOffice",
+      "name": "MyFood API",
+      "description": "API para gestión de pedidos y pagos y gráfico de ventas en tiempo real.",
+      "technologies": ["Angular", "SpringBoot", "Chart.js", "MySQL" , "JWT" , "AWS" ],
       "links": {
         "demo": "#",
-        "code": "#"
+        "code": "https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/tsys-my-food-api"
       }
     },
     {
       "id": 6,
       "svg": "/projects/ahorra_luz.png",
-      "category": "EdTech",
-      "name": "LearnHub",
-      "description": "Plataforma educativa con cursos interactivos, evaluaciones en tiempo real y certificaciones digitales.",
-      "technologies": ["Next.js", "PostgreSQL", "WebRTC", "AWS"],
+      "category": "App móvil",
+      "name": "Ahorra Luz",
+      "description": "App movil para saber en tiempo real cual es el mejor momento para consumir electricidad.",
+      "technologies": ["Ionic", "Angular", "Bootstrap", "APIRest", "AWS"],
       "links": {
         "demo": "#",
-        "code": "#"
+        "code": "https://github.com/d-maza/App-Precio-Luz-"
       }
     },
     {
       "id": 7,
       "svg": "/projects/Artisant Beers.png",
-      "category": "Real Estate",
-      "name": "HomeQuest",
-      "description": "Portal inmobiliario con tours virtuales 360°, búsqueda avanzada por IA y sistema de ofertas en tiempo real.",
-      "technologies": ["Angular", "NestJS", "Three.js", "Socket.io"],
+      "category": "E-commerce",
+      "name": "Artisant Beers",
+      "description": "Tienda online de cervezas artesanales con sistema de suscripción, recomendaciones personalizadas y seguimiento de pedidos en tiempo real.",
+      "technologies": ["Angular", "Express", "JWT", "NodeMailer" , "NGINX"],
       "links": {
         "demo": "#",
-        "code": "#"
+        "code": "https://github.com/equipoProduction/frontBeer"
       }
     },
     {
       "id": 8,
       "svg": "/projects/traductorAI.png",
-      "category": "Food Tech",
-      "name": "QuickBite",
-      "description": "App de delivery de comida con tracking en tiempo real, programa de lealtad y recomendaciones personalizadas.",
-      "technologies": ["React", "Spring Boot", "MongoDB", "Mapbox"],
+      "category": "AI",
+      "name": "Traductor AI",
+      "description": "App de traducción automática con soporte al Catalán  basado en IA.",
+      "technologies": ["JavaScript", "Bootstrap", "MongoDB", "OpenAI API"],
       "links": {
         "demo": "#",
         "code": "#"
@@ -98,11 +98,11 @@
     },
     {
       "id": 9,
-      "svg": "/projects/iahorro.png",
-      "category": "Business",
-      "name": "TaskFlow CRM",
-      "description": "Sistema CRM completo con automatización de ventas, análisis predictivo y gestión de pipeline avanzada.",
-      "technologies": ["Vue.js", "TypeScript", "Supabase", "Stripe"],
+      "svg": "/projects/mardefons.png",
+      "category": "Landings Web",
+      "name": "Mar de Fons",
+      "description": "Web comercial para empresa de servicios buceo. Diseño responsivo y optimización SEO.",
+      "technologies": ["WordPress", "PHP", "GitHub", "Jira" , "Figma" , "SEO"],
       "links": {
         "demo": "#",
         "code": "#"
