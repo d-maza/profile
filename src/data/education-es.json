@@ -1,11 +1,11 @@
 {
   "formal": [
     {
-      "degree": "Bootcamp Desarrollo Full-Stack Angular & Laravel",
-      "institution": "ACTIUHUMA S.L.",
+      "degree": "Java & Angular Full-Stack Development",
+      "institution": "T'SYSTEMS Talent Bootcamp",
       "period": "2022 - 2023",
       "status": "Certificado",
-      "description": "Desarrollo de proyectos web con Stack MEAN y Stack LAMP, con proyecto final de e-commerce con doble autenticación y notificaciones por email usando metodología SCRUM (+240h)."
+      "description": "Desarrollo de proyectos web con ANGULAR y JAVA, con proyecto final de e-commerce con doble autenticación y notificaciones por email usando metodología SCRUM (+240h)."
     },
     {
       "degree": "Front End Web Developer",
@@ -29,48 +29,78 @@
       "description": "Formación en sistemas informáticos, redes y fundamentos de programación."
     }
   ],
-  "certifications": [
-    {
-      "name": "Angular Avanzado",
-      "provider": "Platzi",
-      "year": "2023",
-      "emoji": "🅰️",
-      "color": "red"
-    },
-    {
-      "name": "Node.js API REST",
-      "provider": "Platzi",
-      "year": "2023",
-      "emoji": "🟢",
-      "color": "green"
-    },
-    {
-      "name": "TypeScript POO",
-      "provider": "Platzi",
-      "year": "2023",
-      "emoji": "💎",
-      "color": "blue"
-    },
-    {
-      "name": "Laravel 9",
-      "provider": "Platzi",
-      "year": "2023",
-      "emoji": "🔴",
-      "color": "red"
-    },
-    {
-      "name": "Symfony 6",
-      "provider": "Certificación",
-      "year": "2023",
-      "emoji": "⚫",
-      "color": "indigo"
-    },
-    {
-      "name": "Git & GitHub",
-      "provider": "Platzi",
-      "year": "2023",
-      "emoji": "🐙",
-      "color": "purple"
-    }
-  ]
+  "certifications": {
+    "css_js": [
+      {
+        "name": "CSS3",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/CCS3.pdf"
+      },
+      {
+        "name": "Programación Orientada a Objetos con Java - (UP)",
+        "link": "https://www.coursera.org/account/accomplishments/verify/A77KL7NM5TCM"
+      }
+    ],
+    "node": [
+      {
+        "name": "Node Fundamentals",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-fundamentos-node.pdf"
+      },
+      {
+        "name": "Node API REST con Express.JS",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-backend-nodejs.pdf"
+      },
+      {
+        "name": "Node Authentication Passport.JS JWT",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-passport.pdf"
+      }
+    ],
+    "typescript": [
+      {
+        "name": "TS Programación Orientada a Objetos y Asincronismo",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-typescript-poo.pdf"
+      },
+      {
+        "name": "TS Tipado Avanzados y Funciones",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-typescript-tipos-avanzados.pdf"
+      }
+    ],
+    "php": [
+      {
+        "name": "PHP",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/CertificationPhp.jpg"
+      },
+      {
+        "name": "Laravel 9",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-laravel.pdf"
+      },
+      {
+        "name": "Symfony 6",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/Symfony6.pdf"
+      }
+    ],
+    "angular": [
+      {
+        "name": "Fundamentos de Angular",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-angular.pdf"
+      },
+      {
+        "name": "Angular Componentes y Servicios",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-angular-componentes.pdf"
+      },
+      {
+        "name": "Consumo de API REST con Angular",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-angular-apis.pdf"
+      }
+    ],
+    "others": [
+      {
+        "name": "Git & GitHub",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-git-github.pdf"
+      },
+      {
+        "name": "Seguridad informática: defensa contra las artes oscuras digitales (GOOGLE)",
+        "link": "https://www.coursera.org/account/accomplishments/verify/96CDKS5N5JNL"
+      }
+    ]
+  }
 }

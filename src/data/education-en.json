@@ -29,48 +29,78 @@
       "description": "Training in computer systems, networks and programming fundamentals."
     }
   ],
-  "certifications": [
-    {
-      "name": "Advanced Angular",
-      "provider": "Platzi",
-      "year": "2023",
-      "emoji": "🅰️",
-      "color": "red"
-    },
-    {
-      "name": "Node.js API REST",
-      "provider": "Platzi",
-      "year": "2023",
-      "emoji": "🟢",
-      "color": "green"
-    },
-    {
-      "name": "TypeScript OOP",
-      "provider": "Platzi",
-      "year": "2023",
-      "emoji": "💎",
-      "color": "blue"
-    },
-    {
-      "name": "Laravel 9",
-      "provider": "Platzi",
-      "year": "2023",
-      "emoji": "🔴",
-      "color": "red"
-    },
-    {
-      "name": "Symfony 6",
-      "provider": "Certification",
-      "year": "2023",
-      "emoji": "⚫",
-      "color": "indigo"
-    },
-    {
-      "name": "Git & GitHub",
-      "provider": "Platzi",
-      "year": "2023",
-      "emoji": "🐙",
-      "color": "purple"
-    }
-  ]
+  "certifications": {
+    "css_js": [
+      {
+        "name": "CSS3",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/CCS3.pdf"
+      },
+      {
+        "name": "JavaScript Array Manipulation",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-arrays.pdf"
+      }
+    ],
+    "node": [
+      {
+        "name": "Node Fundamentals",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-fundamentos-node.pdf"
+      },
+      {
+        "name": "Node API REST with Express.JS",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-backend-nodejs.pdf"
+      },
+      {
+        "name": "Node Authentication Passport.JS JWT",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-passport.pdf"
+      }
+    ],
+    "typescript": [
+      {
+        "name": "TS Object Oriented Programming and Async",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-typescript-poo.pdf"
+      },
+      {
+        "name": "TS Advanced Types and Functions",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-typescript-tipos-avanzados.pdf"
+      }
+    ],
+    "php": [
+      {
+        "name": "PHP",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/CertificationPhp.jpg"
+      },
+      {
+        "name": "Laravel 9",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-laravel.pdf"
+      },
+      {
+        "name": "Symfony 6",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/Symfony6.pdf"
+      }
+    ],
+    "angular": [
+      {
+        "name": "Angular Fundamentals",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-angular.pdf"
+      },
+      {
+        "name": "Angular Components and Services",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-angular-componentes.pdf"
+      },
+      {
+        "name": "REST API Consumption with Angular",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-angular-apis.pdf"
+      }
+    ],
+    "others": [
+      {
+        "name": "Git & GitHub",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-git-github.pdf"
+      },
+      {
+        "name": "Trello",
+        "link": "https://techma-bootcamp-fullstack-java-angular.github.io/dmb-tsys-bootstrap-2611-ta31/Ejercicio_07/titulos/diploma-trello.pdf"
+      }
+    ]
+  }
 }
